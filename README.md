@@ -80,3 +80,9 @@ with backend APIs via REST endpoints.
 
 ## Repository Structure
 
+
+---
+
+## How to Run (Local Setup)
+
+
