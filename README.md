@@ -23,8 +23,6 @@ conditions and delivers actionable insights to both authorities and citizens.
 
 ## System Architecture
 
-AURA follows a modular, scalable architecture:
-
 - **Backend Intelligence Engine** – Risk computation & decision logic
 - **Video & Data Processing Layer** – Crowd metrics extraction & simulation
 - **Admin Dashboard (Web)** – Visualization, alerts, analytics
@@ -42,7 +40,7 @@ AURA follows a modular, scalable architecture:
 - Pressure zone classification
 - Dynamic safe-route computation
 
-**Tech:** Python, OpenCV, NumPy, Pandas, Node.js, Express
+**Tech:** Python 3, OpenCV, NumPy, Pandas, Analytics Algorithms
 
 ---
 
@@ -55,6 +53,8 @@ AURA follows a modular, scalable architecture:
 **Input:** Sample YouTube crowd video  
 **Output:** Structured crowd metrics (`.json`)
 
+**Tech:** Farneback Optical Flow, Contour Detection, Risk Scoring Engine
+
 ---
 
 ### 3️⃣ Admin Dashboard (Web)
@@ -63,7 +63,7 @@ AURA follows a modular, scalable architecture:
 - CPI, ELBS, and risk timelines
 - Simulation control & analytics view
 
-**Tech:** React.js, Tailwind CSS, Leaflet.js
+**Tech:** React.js, Tailwind CSS, React-Toastify, Leaflet.js, Node.js + Express.js, Twilio 
 
 ---
 
@@ -73,8 +73,7 @@ AURA follows a modular, scalable architecture:
 - Emergency alerts & SOS
 - Lightweight citizen interface
 
-> Note: The mobile application is maintained as a standalone module and integrates
-with backend APIs via REST endpoints.
+**Tech:** Flutter, Dart, Android Studio 
 
 ---
 
